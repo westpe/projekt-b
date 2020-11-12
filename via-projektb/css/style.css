@@ -1,0 +1,339 @@
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #333;
+    font: 14px/1.7 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 20px;
+    padding: 7px 8px;
+    max-width: 100%;
+    width: 240px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    color: #959595;
+    font: 12px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-weight: 500;
+    }
+
+.clearfix:after{display:block;visibility:hidden;clear:both;width:0;height:0;content:' ';font-size:0;line-height:0;line-line-line-line-line-line-;}
+
+.bg-cover{
+  background: url(../img/bg-img.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.size{
+  margin: auto;
+  width: 70%;
+  background-color: white;
+}
+
+
+.testimonial-img{
+  margin: 20px;
+  width: 90%;
+}
+
+.img-run{
+  width: 100%;
+}
+
+.dropdown-menu:hover{
+  display: block;
+}
+
+.dropdown-toggle::after{
+  display: inline-block;
+    margin-left: 10.2px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Font Awesome 5 Pro', 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f107";
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.logo{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.par-features {
+  color: #8F8F8F;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sponsors{
+  text-align: center;
+}
+
+.photo-stream {
+    margin-right: -12px;
+}
+/* index */
+.photo-stream li {
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+}
+.photo-stream a {
+    display: block;
+    border-radius: 3px;
+}
+.photo-stream a:hover img {
+    opacity: .4;
+}
+.photo-stream img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.p_footer{
+  color: #8F8F8F;
+  margin: auto;
+}
+
+.icon_set{
+  padding: 1%;
+  font-size: 0.6rem;
+}
+
+/* blog */
+
+.post {
+    margin: 0 0 55px;
+    padding: 0 0 35px;
+    border-bottom: 1px solid #ececec;
+}
+.post h2 {
+    margin-bottom: 10px;
+}
+.post-meta {
+    margin-bottom: 25px;
+    color: #959595;
+}
+.post-meta span {
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.post-meta a {
+    color: #959595;
+}
+.post-entry .image, .post-entry .image-slider, .post-entry .video {
+    margin-bottom: 35px;
+    max-width: 100%;
+}
+.post-entry .button {
+    margin-top: 10px;
+}
+
+.yellow-darkgray        { background: #ffd800; }
+.yellow-darkgray:hover  { background: #333; }
+
+.bg-color{
+  background: #ffd800;
+}
+
+.page-title {
+    display: block;
+    margin: 0 0 80px;
+    padding: 60px 30px 65px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 1;
+}
+.page-title .accent {
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+.widget {
+    margin: 0 0 50px;
+    font-size: 12px;
+}
+
+.widget_search input {
+    width: 212px !important;
+}
+#sidebar .widget_search {
+    margin-top: 15px;
+}
+
+#footer .widget {
+    margin: 0;
+}
+.widget h3 {
+    margin: 0 0 18px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#sidebar .widget_categories li {
+    padding: 7px 0 7px 13px;
+    border-bottom: 1px solid #ececec;
+    background: url(../images/c_icon_next.png) no-repeat 0 12px;
+}
+#sidebar .widget_categories li:last-child {
+    border: none;
+}
+#sidebar .widget_categories li a {
+    color: #636363;
+}
+
+/* container */
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 980px;
+}
+.container:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: "\0020";
+}
+
+.slogan-size{
+  width: 100%;
+}
+
+.color-icon{
+  color: #686d76;
+}
+
+.contact-text{
+  text-align: center;
+  padding: 10px;
+
+}
+
+.profile-photo{
+  border-radius: 100%;
+  width: 200px;
+}
+
+.top-container{
+  /* background-color: #66BFBF; */
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.middle-container{
+  padding-top: 20px;
+  position: relative;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.selfInfo{
+  width: 800px;
+  margin: auto;
+}
+
+.my-hi{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact{
+  margin-top: 80px;
+}
+
+.clanek{
+  margin-top: 30px;
+}
+
+.space-p{
+  line-height: 2;
+}
+
+#title{
+  font-size: 57px;
+  /* padding-top: 20px; */
+  /* color: red; */
+}
+
+#move-down{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slogan{
+  color: #1c2b2d;
+}
+
+#footer{
+  background-color: #FFF;
+  text-align: center;
+  padding: 2% 0;
+}
+
+#main {
+    float: left;
+    width: 71.5%;
+}
+#sidebar {
+    float: right;
+    width: 23.5%;
+}
+
+#sidebar .widget_text {
+    color: #636363;
+}
+.button{
+  display: inline-block;
+  margin: 0 5px 15px 0;
+  padding: 7px 20px 8px;
+  border-radius: 3px;
+  color: white;
+  background: #1f6f8b;
+  font-weight: 800;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.button:hover {
+    color: #fff;
+}
